@@ -74,21 +74,32 @@ console.log(double);
 //    In a single command display/log the sentence:
 //   "My name is __. I'm __ years old, and I live in __."
 
-
-
-
+console.log("Question 8");
+var name= prompt("What is your first name?");
+var age= prompt("What is your age?");
+var city= prompt ("Which city do you live in?");
+var output= "My name is "+ name + ". I'm "+ age+ " years old, and I live in "+ city+ ".";
+console.log(output);
 
 // 9. Create an alert that displays the response from a prompt. You can prompt the user for any kind of fun response. 
-
-
-
-
+console.log("Question 9");
+var response= prompt("Which movie did you see last week?");
+var output= "Beware! We have a movie buff in house! Last movie was "+ response;
+alert(output);
 
 // 10. Create the formula to determine the area of a rectangle.
 //     The rectangle is: 2 inches by 3 inches
 //     Display the result in the console. 
-
-
+console.log("Question 10");
+var length = 3;
+var width = 2;
+var area = length * width;
+console.log("The area of the rectangle is: " + area+ " inches");
 
 
 // 11. Prompt a user for their name. Find the length (number of characters) of their name and display the result in the console. 
+console.log("Question 11");
+var name= prompt ("What is your full name?");
+var totalLength= name.length;
+console.log(totalLength);
+
